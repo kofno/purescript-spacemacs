@@ -1,12 +1,15 @@
-;; packages.el --- Purescript Layer packages file for Spacemacs
+;;; packages.el --- Purescript Layer packages File for Spacemacs
 ;;
-;; Copyright (c) 2015 Ryan L. Bell
+;; Copyright (c) 2012-2014 Sylvain Benner
+;; Copyright (c) 2015 Ryan L. Bell & Contributors
 ;;
-;; Author: Ryan L. Bell <ryan.l.bell@gmail.com>
+;; Author: Ryan L. Bell
+;; URL: https://github.com/syl20bnr/spacemacs
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
-;; License: GPLv3
+;;; License: GPLv3
+
 
 (defvar purescript-packages
   '(

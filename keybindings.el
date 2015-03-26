@@ -1,5 +1,18 @@
+;;; keybindings.el --- Purescript Layer keybindings File for Spacemacs
+;;
+;; Copyright (c) 2012-2014 Sylvain Benner
+;; Copyright (c) 2015 Ryan L. Bell & Contributors
+;;
+;; Author: Ryan L. Bell
+;; URL: https://github.com/syl20bnr/spacemacs
+;;
+;; This file is not part of GNU Emacs.
+;;
+;;; License: GPLv3
+
+
 (evil-leader/set-key-for-mode 'purescript-mode
-;; ------- purescript-mode bindings ------------------
+;; -- ----- purescript-mode bindings ------------------
   "mif"  'purescript-mode-format-imports
   "mia"  'purescript-mode-align-imports
   "min"  'purescript-navigate-imports
