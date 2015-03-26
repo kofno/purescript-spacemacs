@@ -3,4 +3,5 @@
   "mpi"  'psci/load-module!
   "mppr" 'psci/load-project-modules!
   "mpr"  'psci/reset!
-  "mpq"  'psci/quit!)
+  "mpq"  'psci/quit!
+  "mpp"  'psci)

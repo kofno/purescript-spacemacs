@@ -25,3 +25,4 @@ Key Binding     | Description
 `<SPC> m p p r` | Load or reload files defined in the project file .psci
 `<SPC> m p r`   | Equivalent of `:r` - Reset
 `<SPC> m p q`   | Equivalent of `:q` - Quit
+`<SPC> m p p`   | Launch a psci console buffer
