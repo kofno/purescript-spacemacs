@@ -2,8 +2,6 @@
 
 ![logo](img/purescript-logo.png)
 
-;; Generate TOC here, use the commande `markdown-toc/generate-toc`
-
 ## Description
 
 This layer provides basic Purescript editing support for spacemacs:
@@ -20,6 +18,10 @@ To use this contribution add it to your `~/.spacemacs`
 
 ## Key bindings
 
-Key Binding   | Description
---------------|------------------------------------------------------------
-`<SPC> x x x` | Does thing01
+Key Binding     | Description
+----------------|------------------------------------------------------------
+`<SPC> m p l`   | Equivalent of `:m /path/to/current/module/file.purs` - Load <file> for importing
+`<SPC> m p i`   | Equivalent of `:i your.current.module.name` - Import <module> for use in PSCI
+`<SPC> m p p r` | Load or reload files defined in the project file .psci
+`<SPC> m p r`   | Equivalent of `:r` - Reset
+`<SPC> m p q`   | Equivalent of `:q` - Quit
